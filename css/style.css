@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+
+body{
+    background-image:url(../recursos/ve-lifestyle-bares-header-3.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    min-height: 100%;
+    
+    
+}
+
+footer{
+    font-size:15px ;
+    margin-left: 5pxpx;
+    margin-right: 5px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(254, 255, 213);
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    padding: 30px;
+    grid-area:footer;
+}
+
+.grid__container{
+    display: grid;
+    min-height: 100vh;        
+            
+    grid-gap: 20px;
+    grid-template-areas:"header"
+                        
+                        "main"
+                        "footer";
+
+
+
+}
+
+.grid__header{
+    grid-area: "header";
+    display: grid;
+    flex-wrap: wrap;
+    align-items:;
+
+    
+}
+
+
+h1{
+    color: rgb(255, 245, 211);    
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    
+
+}
+
+
+.navegation__edited{
+    text-decoration:line-through;
+}
+
+ul{  
+    display: flex;
+    list-style-type: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to top, rgb(255, 242, 206) , rgb(255, 255, 255) );
+    border: 1px solid rgb(0, 0, 0);
+    flex-wrap: wrap;
+
+
+}
+
+li{
+   
+       
+    position:relative;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 10, 3);
+}
+
+
+
+.grid__main{
+    grid-area:main;
+    
+    
+    display: grid;
+    align-items:flex-start;
+    
+    
+    
+}
+.grid__caja{
+    display: grid;
+    align-items:center;
+    justify-content: center;
+    
+   
+    
+}
+.section__caja{ 
+    display: grid;
+    background-image: url(../recursos/wood-background-presentation-png_253935.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+    margin: 80px;
+    border: 5px inset  rgb(65, 4, 4) ;
+    
+    
+         
+
+}
+
+
+
+.section__nombres{
+    display: flex;
+    font-family: 'Lobster', cursive;
+    color: rgb(246, 246, 246);
+    font-size: 40px;        
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    
+    
+}
+
+
+
+.section__descripcion{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    font-size: 30px;
+    justify-items: right;
+    
+   
+}
+
+
+
+
+.section__img{
+    display: grid;
+    width: 700px;
+    height :500px;
+
+    
+    
+    
+
+}
+
+.section__subrayado{
+    text-decoration:underline;
+    font-family:cursive;
+    font-size: 40px;
+   
+
+
+}
+
+.contacto__section{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.section__p{
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+}
