@@ -30,7 +30,7 @@ footer{
 
 .grid__container{
     display: grid;
-    min-height: 100vh;        
+    min-height: 150vh;        
             
     grid-gap: 20px;
     grid-template-areas:"header"
@@ -79,11 +79,12 @@ ul{
 
 li{
    
-       
+    display: flex;   
     position:relative;
     font-size: 20px;
-    padding: 20px;
+    padding: 12px;
     width: 200px;
+    flex-wrap: wrap;
     
     
     
@@ -97,13 +98,9 @@ a{
 
 
 .grid__main{
-    grid-area:main;
-    
-    
+    grid-area:main;    
     display: grid;
     align-items:flex-start;
-    
-    
     
 }
 .grid__caja{
@@ -120,7 +117,7 @@ a{
     background-size:100% 100%;
     background-attachment: fixed;
     margin: 80px;
-    border: 5px inset  rgb(65, 4, 4) ;
+    border: 5px inset  rgb(0, 0, 0) ;
     
     
          
@@ -132,7 +129,7 @@ a{
 .section__nombres{
     display: flex;
     font-family: 'Lobster', cursive;
-    color: rgb(246, 246, 246);
+    color: rgb(255, 255, 255);
     font-size: 40px;        
     padding: 10px;
     margin: 20px;
@@ -146,10 +143,13 @@ a{
 
 
 .section__descripcion{
+    display: flex;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 20px;
     font-size: 30px;
     justify-items: right;
+    color: rgb(0, 0, 0);
+    justify-content:center;
     
    
 }
@@ -158,23 +158,21 @@ a{
 
 
 .section__img{
-    display: grid;
+    display: flex;
     width: 700px;
     height :500px;
-
-    
-    
-    
-
+    justify-content: center;
 }
 
 .section__subrayado{
+    display: flex;
     text-decoration:underline;
     font-family:cursive;
     font-size: 40px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    
    
-
-
 }
 
 .contacto__section{
@@ -185,5 +183,5 @@ a{
 
 .section__p{
     color: rgb(255, 255, 255);
-    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31));
 }
